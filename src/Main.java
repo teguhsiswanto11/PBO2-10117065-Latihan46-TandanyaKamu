@@ -4,7 +4,7 @@ import java.util.Scanner;
  * NAMA     : Teguh Siswanto
  * KELAS    : PBO2
  * NIM      : 10117065
- * Deskripsi Program :
+ * Deskripsi Program : Mengetahui tanda pada diri Anda sesuai dengan umur Anda
  *
  */
 public class Main {
