@@ -8,10 +8,7 @@ import java.util.Scanner;
  *
  */
 public class Main {
-//    kode warna
-    public static final String ANSI_RESET = "\u001B[0m";
-    public static final String ANSI_RED = "\u001B[31m";
-//    utama
+
     public static void main(String[] args) {
 
         Scanner scn1 = new Scanner(System.in);
@@ -23,7 +20,7 @@ public class Main {
         System.out.println("Tahun lahir Anda : "+ag.getYearBirth());
         System.out.println("Hari ini tahun : "+ag.getYearNow());
         System.out.println("Umur Kamu sampai hari ini adalah : "+ag.hitungUmur()+" tahun");
-        System.out.println("Tandanya kamu : "+ANSI_RED+ag.tandanyaKamu(ag.hitungUmur())+ANSI_RESET);
+        System.out.println("Tandanya kamu : "+ag.tandanyaKamu(ag.hitungUmur()));
 
     }
 }

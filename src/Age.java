@@ -1,7 +1,7 @@
 public class Age {
     private int yearBirth;
     private int yearNow;
-    private String red;
+    private static String red = "\u001B[31m";
 
     public Age(int yearNow) {
         this.yearNow = yearNow;
@@ -33,6 +33,6 @@ public class Age {
         else if (29 < umur && umur <= 35){tanda = "LAGI SIBUK NYARI UANG"; }
         else if (35 < umur && umur <= 150){tanda = "SUDAH TUA"; }
         else {tanda = "TIDAK TERDETEKSI DI KEHIDUPAN"; }
-        return tanda;}
+        return red+tanda;}
 
 }
